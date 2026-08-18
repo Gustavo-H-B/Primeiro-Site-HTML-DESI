@@ -24,6 +24,7 @@ section {
 }
 
 .titulo {
+    margin: 20px;
     justify-self: center;
     height: 100px;
     width: 350px;
@@ -32,8 +33,18 @@ section {
     align-items: center;
 }
 
+.titulo2 {
+    margin: 20px;
+    justify-self: center;
+    height: 50px;
+    width: 250px;
+    background-color: #21a8b9;
+    border-radius: 30px;
+    align-items: center;
+}
+
 .pesquisa {
-    margin: 5px;
+    margin: 20px;
     height: 35px;
     width: 225px;
     border-radius: 30px;
@@ -58,4 +69,179 @@ button {
     gap: 20px;
     justify-items: center;
     align-items: center;
+    margin: 20px;
+}
+
+.filme {
+    background-color: #73d3bb;
+    height: 350px;
+    width: 350px;
+    border-radius: 30px;
+    display: grid;
+    justify-items: center;
+}
+
+video {
+    border-radius: 30px;
+}
+
+.sigma {
+    background-color: #73d3bb;
+    height: 350px;
+    width: 350px;
+    border-radius: 30px;
+    display: grid;
+    justify-items: center;
+}
+
+.roblox {
+    background-color: #73d3bb;
+    height: 350px;
+    width: 350px;
+    border-radius: 30px;
+    display: grid;
+    justify-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 50px;
+}
+
+a {
+    color: rgb(29, 214, 122);
+}
+
+.copy {
+    color: #008c9e;
+    padding: 5px;
+    margin-right: 50px;
+}
+
+.tituloCont {
+    margin: 20px;
+    justify-self: center;
+    height: 50px;
+    width: 500px;
+    background-color: #21a8b9;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.linkProd {
+    color: #115b97;
+}
+
+.tituloProd {
+    margin: 20px;
+    justify-self: center;
+    height: 50px;
+    width: 500px;
+    background-color: #21a8b9;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.produtos2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.filme2 {
+    background-color: #73d3bb;
+    height: 350px;
+    width: 350px;
+    border-radius: 30px;
+    display: grid;
+    justify-items: center;
+}
+
+.desc1 {
+    background-color: #20b463;
+    height: 75px;
+    width: 300px;
+    border-radius: 20px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.desc2 {
+    background-color: #20b463;
+    height: 75px;
+    width: 300px;
+    border-radius: 20px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.desc3 {
+    background-color: #20b463;
+    height: 75px;
+    width: 300px;
+    border-radius: 20px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+video {
+    border-radius: 30px;
+}
+
+.sigma2 {
+    background-color: #73d3bb;
+    height: 350px;
+    width: 350px;
+    border-radius: 30px;
+    display: grid;
+    justify-items: center;
+}
+
+.roblox2 {
+    background-color: #73d3bb;
+    height: 350px;
+    width: 350px;
+    border-radius: 30px;
+    display: grid;
+    justify-items: center;
+}
+
+.formulario {
+    background-color: #20b463;
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-self: center;
+}
+
+.limpar {
+    background-color: #ff0000;
+    height: 30px;
+    width: 50px;
+    border-radius: 20px;
+}
+
+.enviar {
+    background-color: #48ff00;
+    height: 30px;
+    width: 50px;
+    border-radius: 20px;
+}
+
+.curriculo {
+    border-radius: 20px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-self: center;
+    margin: 20px;
 }

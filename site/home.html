@@ -22,24 +22,31 @@
         </section>
         <section class="pesquisa">
             <input type="text" placeholder="pesquise o que procura...">
-            <button type="submit">🔍</button>
+            <button type="submit" >🔍</button>
         </section>
         <section class="titulo2">
             <h2><strong>Principais Produtos:</strong></h2>
         </section>
         <section class="produtos">
-            <p><strong>Filme VIP🎟️(apenas um trecho)</strong></p>
-            <video width="200px" height="200px" controls ontimeupdate="if(this.currentTime >= 0.1){ this.pause(); this.currentTime = 0; }">
-                <source src="assets/SapoMine.mp4" type="video/mp4" alt="Sapo o Filme">
-            </video>
-            <p><Strong>Status SIGMA</Strong></p>
-            <img src="assets/sigma.jpg" alt="Acesso para ser Sigma">
-            <p><Strong>Foto de Perfil Premium</Strong></p>
-            <img src="assets/roblox.png" alt="Rosto do Roblox">
+            <div class="filme">
+                <a class="linkProd" href="produtos.html"><p><strong>Filme VIP🎟️</strong></p></a>
+                <video width="300px" height="300px" >
+                    <source src="assets/SapoMine.mp4" type="video/mp4" alt="Sapo o Filme">
+                </video>
+            </div>
+            <div class="sigma">
+                <a class="linkProd" href="produtos.html"><p><Strong>Status SIGMA</Strong></p></a>
+                <img width="300px" height="300px" src="assets/sigma.jpg" alt="Acesso para ser Sigma">
+            </div>
+            <div class="roblox">
+                <a class="linkProd" href="produtos.html"><p><Strong>Foto de Perfil Premium</Strong></p></a>
+                <img width="300px" height="300px" src="assets/roblox.png" alt="Rosto do Roblox">
+            </div>
         </section>
     </main>
     <hr>
     <footer>
+        <p class="copy">@2026: Copyright REX</p>
         <nav>
             <a href="home.html" >home🏠</a>
             <a href="../site/assets/regra.jpg" target="_blank">regras🛡️</a>
