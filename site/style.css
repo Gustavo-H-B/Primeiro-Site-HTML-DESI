@@ -4,7 +4,7 @@
 }
 
 body {
-    margin: 30px;
+    margin: 10px;
     background-color: #343838;
 }
 
@@ -25,7 +25,7 @@ section {
 }
 
 .titulo {
-    margin: 20px;
+    margin: 15px;
     justify-self: center;
     height: 100px;
     width: 350px;
@@ -35,7 +35,7 @@ section {
 }
 
 .titulo2 {
-    margin: 20px;
+    margin: 15px;
     justify-self: center;
     height: 50px;
     width: 250px;
@@ -45,9 +45,9 @@ section {
 }
 
 .pesquisa {
-    margin: 20px;
-    height: 35px;
-    width: 225px;
+    margin: 15px;
+    height: 75px;
+    width: 250px;
     border-radius: 30px;
     background-color: #008c9e;
     justify-self: center;
@@ -70,7 +70,7 @@ button {
     gap: 20px;
     justify-items: center;
     align-items: center;
-    margin: 20px;
+    margin: 15px;
 }
 
 .filme {
@@ -120,7 +120,7 @@ a {
 }
 
 .tituloCont {
-    margin: 20px;
+    margin: 15px;
     justify-self: center;
     height: 50px;
     width: 500px;
@@ -154,7 +154,7 @@ a {
 
 .filme2 {
     background-color: #73d3bb;
-    height: 350px;
+    height: 400px;
     width: 350px;
     border-radius: 30px;
     display: grid;
@@ -191,13 +191,26 @@ a {
     align-items: center;
 }
 
+.preco {
+    background-color: #1ba517;
+    width: 250px;
+    border-radius: 20px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.fora {
+    background-color: #cc2424;
+}
+
 video {
     border-radius: 30px;
 }
 
 .sigma2 {
     background-color: #73d3bb;
-    height: 350px;
+    height: 400px;
     width: 350px;
     border-radius: 30px;
     display: grid;
@@ -206,7 +219,7 @@ video {
 
 .roblox2 {
     background-color: #73d3bb;
-    height: 350px;
+    height: 400px;
     width: 350px;
     border-radius: 30px;
     display: grid;
@@ -245,4 +258,55 @@ video {
     align-items: center;
     justify-self: center;
     margin: 20px;
+}
+
+#modo {
+    transform: scale(2);
+    border: none;
+    background: none;
+    display: grid;
+    justify-self: center;
+}
+
+.comprar {
+    background-color: #4ed861;
+    width: 75px;
+    border-radius: 20px;
+}
+.favorito {
+    font-size: 24px;
+    border: none;
+    background: none;
+    display: grid;
+    justify-self: center;
+}
+
+.favoritar {
+    color: yellow;
+}
+
+.favoritar2 {
+    outline: 3px solid yellow;
+}
+
+.destacar {
+    outline: 3px solid blue;
+}
+
+.aceito {
+    color: blue;
+}
+
+.aceitoCompra {
+    color: white;
+    background-color: blue;
+}
+
+.recusado {
+    color: white;
+    background-color: red;
+}
+
+.modoClaro {
+    background-color: white;
 }

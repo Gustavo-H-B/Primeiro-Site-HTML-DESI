@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="../site/style.css">
+    <script src="contatoScript.js" defer></script>
 </head>
 <body>
     <header>
@@ -19,6 +20,7 @@
         <section class="tituloCont">
             <h1><strong><u>Entre em Contato Conosco! 🐸📞</u></strong></h1>
         </section>
+        <button id="modo">🌚</button>
         <section class="formulario">
             <form>
                 <label for="nome">Nome: </label>
@@ -44,8 +46,9 @@
                     <option value="outro">Outro⚧️</option>
                 </select>
                 <br>
-                <button class="limpar" type="reset">Limpar</button>
-                <button class="enviar" type="submit">Enviar</button>
+                <button class="limpar" id="limpar" type="reset">Limpar</button>
+                <button class="enviar" id="enviar" type="submit">Enviar</button>
+                <p id="resultado"></p>
             </form>
         </section>
         <br>
