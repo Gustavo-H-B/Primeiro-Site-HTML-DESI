@@ -282,31 +282,38 @@ video {
 }
 
 .favoritar {
-    color: yellow;
+    color: var(--cor-favorito);
 }
 
 .favoritar2 {
-    outline: 3px solid yellow;
+    outline: 3px solid var(--cor-favorito);
 }
 
 .destacar {
-    outline: 3px solid blue;
+    outline: 3px solid var(--cor-sucesso);
 }
 
 .aceito {
-    color: blue;
+    color: var(--cor-sucesso);
 }
 
 .aceitoCompra {
-    color: white;
-    background-color: blue;
+    color: var(--cor-temaClaro);
+    background-color: var(--cor-sucesso);
 }
 
 .recusado {
-    color: white;
-    background-color: red;
+    color: var(--cor-temaClaro);
+    background-color: var(--cor-recusado);
 }
 
 .modoClaro {
-    background-color: white;
+    background-color: var(--cor-temaClaro);
+}
+
+:root {
+    --cor-temaClaro: #ffffff;
+    --cor-sucesso: #0000ff;
+    --cor-recusado: #ff0000;
+    --cor-favorito: #ffff00;
 }
